@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/service-booking-dashboard/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Apex Digital Services</title>
+
+		<script>
+			(function () {
+				const savedTheme = localStorage.getItem("apex-theme");
+				const systemDark = window.matchMedia(
+					"(prefers-color-scheme: dark)"
+				).matches;
+
+				if (savedTheme === "dark" || (!savedTheme && systemDark)) {
+					document.documentElement.classList.add("dark");
+				} else {
+					document.documentElement.classList.remove("dark");
+				}
+			})();
+		</script>
+		<script type="module" crossorigin src="/service-booking-dashboard/assets/index-qe8Zieuc.js"></script>
+		<link rel="stylesheet" crossorigin href="/service-booking-dashboard/assets/index-5cYg-Vrv.css">
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+</html>
