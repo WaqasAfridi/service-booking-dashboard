@@ -1,0 +1,457 @@
+{
+  "categories": [
+    {
+      "id": "web-app-dev",
+      "name": "Web & App Dev",
+      "icon": "FaLaptopCode",
+      "color": "bg-blue-100 text-blue-600",
+      "darkColor": "dark:bg-blue-900/30 dark:text-blue-400"
+    },
+    {
+      "id": "design-creative",
+      "name": "Design & Creative",
+      "icon": "FaPaintBrush",
+      "color": "bg-orange-100 text-orange-600",
+      "darkColor": "dark:bg-orange-900/30 dark:text-orange-400"
+    },
+    {
+      "id": "digital-marketing",
+      "name": "Digital Marketing",
+      "icon": "FaBullhorn",
+      "color": "bg-yellow-100 text-yellow-600",
+      "darkColor": "dark:bg-yellow-900/30 dark:text-yellow-400"
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "icon": "FaPenNib",
+      "color": "bg-purple-100 text-purple-600",
+      "darkColor": "dark:bg-purple-900/30 dark:text-purple-400"
+    },
+    {
+      "id": "video-animation",
+      "name": "Video & Animation",
+      "icon": "FaVideo",
+      "color": "bg-red-100 text-red-600",
+      "darkColor": "dark:bg-red-900/30 dark:text-red-400"
+    },
+    {
+      "id": "ai-services",
+      "name": "AI Services",
+      "icon": "FaRobot",
+      "color": "bg-green-100 text-green-600",
+      "darkColor": "dark:bg-green-900/30 dark:text-green-400"
+    }
+  ],
+  "quickTags": [
+    "Web Development",
+    "SEO",
+    "Logo Design",
+    "Content Writing",
+    "Social Media"
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Full-Stack Web Development",
+      "provider": "DevMasters",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=DevMasters",
+      "category": "web-app-dev",
+      "price": 1500,
+      "rating": 4.9,
+      "reviews": 215,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80"
+      ],
+      "description": "Comprehensive full-stack development using React, Node.js, and MongoDB. We build scalable, secure, and high-performance web applications tailored to your business needs. Our team has 10+ years of experience delivering enterprise-grade solutions.",
+      "tags": ["React", "Node.js", "MongoDB", "API"],
+      "features": [
+        "Responsive Design",
+        "API Integration",
+        "Database Setup",
+        "Deployment & Hosting",
+        "3 Months Support",
+        "Performance Optimization"
+      ],
+      "deliveryTime": "2 Weeks",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "SEO Optimization Package",
+      "provider": "RankBoosters",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=RankBoosters",
+      "category": "digital-marketing",
+      "price": 200,
+      "rating": 4.8,
+      "reviews": 120,
+      "image": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=800"
+      ],
+      "description": "Boost your search rankings with our complete SEO audit and optimization service. We analyze your website, competitors, and implement proven strategies to increase organic traffic and conversions.",
+      "tags": ["SEO", "Marketing", "Analytics", "Traffic"],
+      "features": [
+        "Keyword Research",
+        "On-page SEO",
+        "Competitor Analysis",
+        "Monthly Reports",
+        "Backlink Strategy"
+      ],
+      "deliveryTime": "Ongoing",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Development",
+      "provider": "AppWizards",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=AppWizards",
+      "category": "web-app-dev",
+      "price": 3000,
+      "rating": 5.0,
+      "reviews": 85,
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-512941937669-90a1b58e7e9c?w=800"
+      ],
+      "description": "Native iOS and Android app development with intuitive UI/UX. We specialize in creating beautiful, performant mobile applications that users love. From concept to App Store deployment.",
+      "tags": ["iOS", "Android", "Flutter", "Mobile"],
+      "features": [
+        "UI/UX Design",
+        "App Store Submission",
+        "Push Notifications",
+        "In-App Purchases",
+        "Analytics Integration"
+      ],
+      "deliveryTime": "4 Weeks",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Social Media Management",
+      "provider": "ViralVibe",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ViralVibe",
+      "category": "digital-marketing",
+      "price": 500,
+      "rating": 4.7,
+      "reviews": 310,
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800"
+      ],
+      "description": "Full management of your Instagram, Twitter, and LinkedIn accounts. We create engaging content, interact with your audience, and grow your online presence organically.",
+      "tags": ["Social Media", "Content", "Branding", "Growth"],
+      "features": [
+        "Daily Posts",
+        "Community Management",
+        "Monthly Reports",
+        "Content Calendar",
+        "Hashtag Strategy"
+      ],
+      "deliveryTime": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Professional Logo Design",
+      "provider": "BrandCrafters",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=BrandCrafters",
+      "category": "design-creative",
+      "price": 250,
+      "rating": 4.9,
+      "reviews": 450,
+      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800"
+      ],
+      "description": "Custom logo design that captures your brand's essence. We provide multiple concepts, unlimited revisions, and deliver in all formats. Your brand identity starts here.",
+      "tags": ["Logo", "Branding", "Design", "Identity"],
+      "features": [
+        "3 Initial Concepts",
+        "Unlimited Revisions",
+        "All File Formats",
+        "Brand Guidelines",
+        "Social Media Kit"
+      ],
+      "deliveryTime": "5 Days",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "Content Writing Services",
+      "provider": "WordSmiths",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=WordSmiths",
+      "category": "writing",
+      "price": 100,
+      "rating": 4.6,
+      "reviews": 189,
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800"
+      ],
+      "description": "Professional content writing for blogs, websites, and marketing materials. SEO-optimized, engaging content that converts readers into customers.",
+      "tags": ["Writing", "Content", "SEO", "Copywriting"],
+      "features": [
+        "SEO Optimized",
+        "Plagiarism Free",
+        "2 Revisions",
+        "Fast Delivery",
+        "Industry Research"
+      ],
+      "deliveryTime": "3 Days",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Video Editing & Production",
+      "provider": "VideoVault",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=VideoVault",
+      "category": "video-animation",
+      "price": 400,
+      "rating": 4.8,
+      "reviews": 203,
+      "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800"
+      ],
+      "description": "Professional video editing for YouTube, social media, and marketing campaigns. We transform raw footage into compelling stories that engage your audience.",
+      "tags": ["Video", "Editing", "Production", "YouTube"],
+      "features": [
+        "Color Grading",
+        "Sound Design",
+        "Motion Graphics",
+        "Subtitles",
+        "Multiple Revisions"
+      ],
+      "deliveryTime": "1 Week",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "AI Chatbot Development",
+      "provider": "AIInnovators",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=AIInnovators",
+      "category": "ai-services",
+      "price": 800,
+      "rating": 4.9,
+      "reviews": 95,
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
+      ],
+      "description": "Custom AI chatbot development using GPT-4 and advanced NLP. Automate customer support, lead generation, and user engagement with intelligent conversational AI.",
+      "tags": ["AI", "Chatbot", "NLP", "Automation"],
+      "features": [
+        "GPT-4 Integration",
+        "Custom Training",
+        "Multi-platform Support",
+        "Analytics Dashboard",
+        "24/7 Operation"
+      ],
+      "deliveryTime": "2 Weeks",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "E-commerce Store Setup",
+      "provider": "ShopBuilders",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ShopBuilders",
+      "category": "web-app-dev",
+      "price": 1200,
+      "rating": 4.7,
+      "reviews": 167,
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800"
+      ],
+      "description": "Complete e-commerce store setup with Shopify or WooCommerce. Payment integration, product management, and marketing tools included.",
+      "tags": ["E-commerce", "Shopify", "WooCommerce", "Store"],
+      "features": [
+        "Payment Gateway Setup",
+        "Product Upload",
+        "Shipping Integration",
+        "SEO Setup",
+        "Email Automation"
+      ],
+      "deliveryTime": "10 Days",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "UI/UX Design for Apps",
+      "provider": "DesignLab",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=DesignLab",
+      "category": "design-creative",
+      "price": 600,
+      "rating": 5.0,
+      "reviews": 142,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800"
+      ],
+      "description": "Beautiful, user-centered UI/UX design for mobile and web applications. We create intuitive interfaces that users love to interact with.",
+      "tags": ["UI", "UX", "Design", "Figma"],
+      "features": [
+        "User Research",
+        "Wireframes",
+        "High-Fidelity Mockups",
+        "Prototype",
+        "Design System"
+      ],
+      "deliveryTime": "2 Weeks",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "title": "Google Ads Campaign",
+      "provider": "AdExperts",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=AdExperts",
+      "category": "digital-marketing",
+      "price": 350,
+      "rating": 4.6,
+      "reviews": 278,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+      ],
+      "description": "Strategic Google Ads campaign management to drive qualified traffic and maximize ROI. Complete setup, optimization, and ongoing management.",
+      "tags": ["Google Ads", "PPC", "Marketing", "ROI"],
+      "features": [
+        "Keyword Research",
+        "Ad Copy Creation",
+        "Landing Page Optimization",
+        "A/B Testing",
+        "Performance Reports"
+      ],
+      "deliveryTime": "Ongoing",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "Technical Blog Writing",
+      "provider": "TechWriters",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=TechWriters",
+      "category": "writing",
+      "price": 150,
+      "rating": 4.8,
+      "reviews": 156,
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800"
+      ],
+      "description": "In-depth technical articles and tutorials for developers. Well-researched, code-tested content that educates and engages your technical audience.",
+      "tags": ["Technical Writing", "Development", "Tutorial", "Blog"],
+      "features": [
+        "Code Examples",
+        "Technical Accuracy",
+        "SEO Optimization",
+        "Diagrams Included",
+        "Peer Review"
+      ],
+      "deliveryTime": "5 Days",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "2D Animation Services",
+      "provider": "AnimateHub",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=AnimateHub",
+      "category": "video-animation",
+      "price": 700,
+      "rating": 4.9,
+      "reviews": 188,
+      "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=800"
+      ],
+      "description": "Professional 2D animation for explainer videos, ads, and social media. Bring your ideas to life with stunning visuals and smooth animations.",
+      "tags": ["Animation", "2D", "Explainer", "Motion"],
+      "features": [
+        "Storyboard",
+        "Custom Characters",
+        "Voiceover Integration",
+        "Sound Effects",
+        "Multiple Formats"
+      ],
+      "deliveryTime": "2 Weeks",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "title": "Machine Learning Model",
+      "provider": "MLMasters",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=MLMasters",
+      "category": "ai-services",
+      "price": 1500,
+      "rating": 5.0,
+      "reviews": 67,
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800"
+      ],
+      "description": "Custom machine learning model development for prediction, classification, and automation. We handle data preprocessing, model training, and deployment.",
+      "tags": ["ML", "AI", "Python", "TensorFlow"],
+      "features": [
+        "Data Analysis",
+        "Model Training",
+        "API Development",
+        "Documentation",
+        "Performance Tuning"
+      ],
+      "deliveryTime": "3 Weeks",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "title": "WordPress Website",
+      "provider": "WPPros",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=WPPros",
+      "category": "web-app-dev",
+      "price": 500,
+      "rating": 4.7,
+      "reviews": 289,
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800"
+      ],
+      "description": "Professional WordPress website with custom theme, plugins, and SEO optimization. Perfect for businesses, blogs, and portfolios.",
+      "tags": ["WordPress", "Website", "CMS", "Blog"],
+      "features": [
+        "Custom Theme",
+        "Plugin Setup",
+        "SEO Ready",
+        "Mobile Responsive",
+        "Training Included"
+      ],
+      "deliveryTime": "1 Week",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "title": "Illustration & Character Design",
+      "provider": "ArtisticSouls",
+      "providerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ArtisticSouls",
+      "category": "design-creative",
+      "price": 300,
+      "rating": 4.9,
+      "reviews": 234,
+      "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=500&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800"
+      ],
+      "description": "Custom illustrations and character designs for books, games, and branding. Unique, hand-crafted artwork tailored to your vision.",
+      "tags": ["Illustration", "Character", "Art", "Design"],
+      "features": [
+        "Concept Sketches",
+        "Full Color Rendering",
+        "Multiple Poses",
+        "Commercial Rights",
+        "Source Files"
+      ],
+      "deliveryTime": "1 Week",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+/* src/index.css - top of file */
+@import "tailwindcss";
+
+/* make the `dark:` utilities respond to the .dark class on html/body */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Your existing layers (unchanged) */
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply bg-white dark:bg-black;
+		@apply text-gray-900 dark:text-white;
+		transition: background-color 0.3s ease, color 0.3s ease;
+	}
+}
+
+@layer utilities {
+	.glass {
+		@apply bg-white/95 dark:bg-black/85;
+		backdrop-filter: blur(12px);
+		@apply border-b border-gray-200 dark:border-gray-800;
+	}
+}
